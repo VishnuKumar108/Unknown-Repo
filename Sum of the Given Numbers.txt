@@ -1,0 +1,10 @@
+# Number of test cases
+N = int(input())
+
+# Loop through each test case
+for _ in range(N):
+    # Read integers A and B
+    A, B = map(int, input().split())
+    
+    # Print the sum of A and B
+    print(A + B)
